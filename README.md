@@ -12,6 +12,12 @@ Converts a `.sb3` project into a devkitPro project (C source + romfs assets + Ma
 
   Clone this repo:
     `git clone aosidfjh`
+    
     `cd asodasd`
+
+  Create project
+    `bash ./new.sh`
+    or
+    `python -m sb2c mygame.sb3 -o mygame_nx --title "My Game" --author "me" [--icon icon.jpg]`
     
 [devkitpro wiki]: https://devkitpro.org/wiki/Main_Page
