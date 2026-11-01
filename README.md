@@ -15,9 +15,17 @@ Converts a `.sb3` project into a devkitPro project (C source + romfs assets + Ma
     
     `cd asodasd`
 
-  Create project
+## Usage
+  Create Project
     `bash ./new.sh`
     or
     `python -m sb2c mygame.sb3 -o mygame_nx --title "My Game" --author "me" [--icon icon.jpg]`
+
+  Building
+    `cd [projectfolder]`
     
+    Build for NX: `make`
+    
+    Build for Linux and run: `make -f Makefile.host sdl && ./game`
+
 [devkitpro wiki]: https://devkitpro.org/wiki/Main_Page
