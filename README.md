@@ -10,4 +10,8 @@ Converts a `.sb3` project into a devkitPro project (C source + romfs assets + Ma
   
   Refer to the [devkitpro wiki] for more information about setup for development for switch and other devices.
 
+  Clone this repo:
+    `git clone aosidfjh`
+    `cd asodasd`
+    
 [devkitpro wiki]: https://devkitpro.org/wiki/Main_Page
